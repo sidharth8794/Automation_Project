@@ -62,7 +62,7 @@ public class LoginUtil {
 
             System.out.println("Login submitted.");
 
-            //Step 6: Validate that log in is successful
+            //Step 6: Validate that log in is successful sdvs
             WebElement logOutBtn = wait.until(ExpectedConditions.presenceOfElementLocated(
                     By.xpath("//button//span[contains(text(), 'Log Out')]")));
             if (logOutBtn.isDisplayed()) {
